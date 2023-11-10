@@ -1,3 +1,10 @@
+/**
+ *
+ * this code is a possible solution for the problem described in
+ * https://gist.github.com/ryunp/3c34aa1bec447f9b0c65c55b915788b9
+ *
+ */
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -26,7 +33,6 @@ vector<string> solution (string pin) {
 	}
 
 	vector<string> result(rate);
-
 
 	for (int i = 0; i < (int)possibilities.size(); i++) {
 		rate /= possibilities[i].size();
