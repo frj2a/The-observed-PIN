@@ -16,7 +16,7 @@ vector<string> solution (string pin) {
 		{ '2', "1235"},
 		{ '3', "236"},
 		{ '4', "1457"},
-		{ '5', "14568"},
+		{ '5', "24568"},
 		{ '6', "3569"},
 		{ '7', "478"},
 		{ '8', "57890"},
@@ -54,7 +54,7 @@ int main() {
 
 	vector<string> out_;
 	out_ = solution(pin);
-		for(int i_out_ = 0; i_out_ < (int)out_.size(); i_out_++)
+	for(int i_out_ = 0; i_out_ < (int)out_.size(); i_out_++)
 	{
 		cout << out_[i_out_] << "\n";
 	}
